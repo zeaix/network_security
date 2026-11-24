@@ -129,3 +129,12 @@
 - Files and Folders Access Control --> Do not let the anonymous guest to wander around the applications and work with any files or folders it is too risky --> Inheritance lock -> if the folder is locked then each and everything inside should be Locked
 - Benefits of Access Controls --> Keep Zero Trust Architecture in mind
 - Best Practices --> Work on Administration and Governance --> Determine the Duty Separation --> user Education --> Access Control Policy Creation and Recreation --> Escalation and Disaster Recovery Plan
+(24 November 2026)
+- Network Access Control (NAC) --> Appliance or a Virtual Machine -> used to control access to the network -> It has full visibility of Network profile of all the participants along with automatic categorisation of their function
+- NAC evaluates security compliance on the basis of User, Device, Location, OS, and other factors
+- NAC began as a network authentication and authorisation tool which uses IEEE 802.1x standards
+- Captive Portal --> a pop up portal you see whenever trying to connect with public wifi in which you have to accept terms and conditions or enter some credentials etc. --> if it is given through NAC then it could be said as self service portal
+- Challenges in NAC --> Guest, BYOD, and IoT pose a serious challenges to NAC -> These devices are personally owned and could not be controlled by NAC -> NAC can't control what applications could run or not in those devices --> most IoTs consist low level authentications, they connect to many different networks from remote locations -> IoTs also connects back to their vendors for user experience data and lot more -> This increase the attack surface area -> But organisations tolerate this due to simplicity, cheap, and easiness
+- When MIS introduce NAC to the network -> NAC scans the network and create network profiles of each and every device and other entity in the network along with their categorisation on the basis of their function -> If an entity request for the network resources beyond their function needs then NAC declines the request -> It also includes Guest, Collaborators, and contractors in the network
+- NAC can integrate with other security tools and products to enhance the experience and security
+- Benefits of NAC --> Improved Security --> Cost Savings --> Enhanced IT Experience --> Ease of Control --> Automation
