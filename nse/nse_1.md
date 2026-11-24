@@ -1,11 +1,11 @@
-##Fortinet Network Security Expert(NSE) 1
+# Fortinet Network Security Expert(NSE) 1
 
-#Module 1: Introduction
+## Module 1: Introduction
 - Bad Actors = Attackers (Methods, Knowledge, Motive)
 - Explorer, Hacktivist, Cyber Teririst, Cyber Criminals, Cyber Warrior
 - White, grey, black, and blue hat
 
-#Module 2: The Threat Landscape
+## Module 2: The Threat Landscape
 - Bad Actors --> Threat vectors --> Vulnerability, Mechanisms, and Pathways
 - Attack paths
 - Cybersecurity Threats --> Unauthorised Access, Social Engineering, Malware, System Vulnerabilities
@@ -16,7 +16,7 @@
 - Cyberattack framework --> Access the Situation -> find the problem -> analyse the impact -> develop and implement strategies --> Cyber Kill Chain by Lockheed Martin --> Reconnaissance -> Weaponisation -> Delivery -> Exploitation -> Installation -> Command and Control -> Exfiltration
 - Outbreak Alert --> Keep current with vulnerabilities -> Consult online and offline cybersecurity consultant --> Includes Vulnerability, Technologies affected, timeline, solution, and research done on it.
 
-#Module 3: Social Engineering
+## Module 3: Social Engineering
 - Way an orchestrator will try to make other people do for his own good --> Consist Emotion of the human being in it
 - Phishing --> Whale and Spear Phishing --> Smishing and Vishing
 - Social Engineering in which people goes to attacker instead attack go to them --> Watering hole, Honey Pot Trap, Tailgating (In this person should need to know that he is helping you), and Scareware
@@ -26,13 +26,13 @@
 - Copycat government sites, Holiday Fraud, Romance site Fraud, Mandate Fraud, and Pharming 
 - Online Influence --> Campaign to promote something bad or bad rumours --> Creating a Fake ID -> Creating Content -> Posting Content -> Real people watching it and sharing it -> Media will take the story
 
-#Module 4: Malware
+## Module 4: Malware
 - Malware --> Virus -> Triggered, Attached to application, and Spreads
 - Virus --> Resident, Non-Resident, Multipartile, Direct Action, Browser Hijacking, Overwrite, Web Scripting Virus, Network virus, Boot Loader virus, File Infector
 - Malware --> Worms, Rootkit, DLL Injection, Keylogger, PUB, Spyware, Adware, Dialler, Ransomeware, Adversel AI, Trojan Horse (Dropper, Downloader), Bootware, Cryptojacking
 - Attack Surface --> Dropper, Downloader, Shellcode, Code Injection
 
-#Module 5: Cryptography and the Public Key Infrastructure
+## Module 5: Cryptography and the Public Key Infrastructure
 - Digital Key: alphanumeric key used in cryptography
 - Large key (1024 bit or larger) --> used to encrypt short messages
 - Small key (128 or 256 bit) --> used to encrypt long messages
@@ -50,7 +50,7 @@
 - Post Quantum Cryptography --> Lattic-Based, Hash-Based, Code-based, and Multivariant-based
 - Nist recognised cryptography to prevent quantum break --> ML-key distribution, FN-DSA, ML-DSA, SLH-DSA
 
-#Module 6: Secure Network (22 November 2026)
+## Module 6: Secure Network (22 November 2026)
 - Secure Perimeter --> Create Trust Boundary between trusted network and untrusted
 - Data Link Layer --> using ACL(Access Control List), MAC(Media Access Control) issued by NIC to every device to filter the trusted devices.
 - Transport Layer --> Stateless (5 tuple), Statefull(5 tuple and Continuous Connection) --> NAT (Network Address Translation) hides the internal devices from outside.
@@ -102,7 +102,7 @@
 - Benefits of OT Security --> Continuous operations --> Control of System --> Continuous Monitoring and visibility --> Regulatory Compliance --> Equipment and Personal Safety
 - Best Practices -> Governance & Risk Management --> Monitoring and Detection --> Network and Access Control --> Incident Response and Recovery --> Workforce Preparedness
 
-#Module 7: Authentication and Access Control (23 November 2026)
+## Module 7: Authentication and Access Control (23 November 2026)
 - Authentication --> Identification and Verification
 - Knowledge, Possession, Inherence, Behaviour
 - SSO (Single Sign On) --> Sign in only one time then that authentication token will be distributed to every other application connected to it
@@ -129,7 +129,7 @@
 - Files and Folders Access Control --> Do not let the anonymous guest to wander around the applications and work with any files or folders it is too risky --> Inheritance lock -> if the folder is locked then each and everything inside should be Locked
 - Benefits of Access Controls --> Keep Zero Trust Architecture in mind
 - Best Practices --> Work on Administration and Governance --> Determine the Duty Separation --> user Education --> Access Control Policy Creation and Recreation --> Escalation and Disaster Recovery Plan
-(24 November 2026)
+- (24 November 2026)
 - Network Access Control (NAC) --> Appliance or a Virtual Machine -> used to control access to the network -> It has full visibility of Network profile of all the participants along with automatic categorisation of their function
 - NAC evaluates security compliance on the basis of User, Device, Location, OS, and other factors
 - NAC began as a network authentication and authorisation tool which uses IEEE 802.1x standards
@@ -138,3 +138,22 @@
 - When MIS introduce NAC to the network -> NAC scans the network and create network profiles of each and every device and other entity in the network along with their categorisation on the basis of their function -> If an entity request for the network resources beyond their function needs then NAC declines the request -> It also includes Guest, Collaborators, and contractors in the network
 - NAC can integrate with other security tools and products to enhance the experience and security
 - Benefits of NAC --> Improved Security --> Cost Savings --> Enhanced IT Experience --> Ease of Control --> Automation
+
+## Module 8: Endpoint Security
+- IoT --> Its a network of Physical objects connected to the internet through sensors, bluetooth, and other technologies
+- Different Categorisation of IoT --> Industrial Devices -> Residential Location -> Personal Devices
+- Personal Devices --> its very hard to manage data from the personal IoT used in persons daily life as that data is sensitive and could cause a huge harm to a person if compromised
+- Residential Location --> Smart Homes -> Secure your Passwords -> implement restriction to data transfer -> Updating patches regularly --> Smart Cities -> Securing and Validating Endpoint connections at enterprise level
+- Industrial Devices --> with the union of Operational Technology and Information Technology the use of IoT has been increase as it provides better efficiency, automation and data collection
+- Industrial IoT benefits --> Manager get the broader view of the work due to realtime tracking --> ICS can monitor and adjust the parameters on the assembly lines according to the need --> Realtime tracking and sensors increase the safety and maintenance
+- Endpoint Security Challenges --> As well the increase in the development of Endpoint is increase the corresponding security of endpoint is not --> It increases the Attack Surface --> When compromised they could be used as Bots
+- Precautions to take when introducing new and unknown endpoints --> Identify devices -> collect the information of devices -> add them to an isolated network instead of your main network to check and find out about any risks -> If everything is good to go then add them in main network.
+- Best Practices in Endpoint Security --> Identify and learn everything about IoT before connecting it --> Group them according to their security and connection needs --> Separate the traffics of devices according to their functions to prevent infrastructure attack
+- Endpoint Hardening Techniques --> Administrative Control --> Local Endpoint Protection --> Endpoint Maintenance --> Endpoint Monitoring
+- Administrative Controls --> Secure Passwords --> PoLP --> Restrictions
+- Local Endpoint Protection --> Secure Operating Systems and Startups -> Secure the endpoints physically -> keep track of the firmware used in the endpoints used by the organisation -> Keep them updated -> always keep a list of Operating systems types and version only need to be used by the organisation endpoints and sometimes endpoints use boot loader instead of BIOS and UEFI-> UEFI is newer and implement better security then BIOS -> UEFI checks the hardware is valid or not before booting the system -> Locking Down the BIOS is also very good security measure --> Disk Security and Encryption -> Encrypt the disks to prevent any data theft -> FDE (Full Disk Encryption) it is a software based encryption tool which encrypts the disk which is done by OS and key is stored at TPM(Trusted Platform Module) -> Self Encryption Drive --> Data Loss Prevention -> Detect the copying and transferring of large files over the network -> Limit the attachable devices functions -> Could be network based also
+- Endpoint Maintenance --> Auto-Update/Patches -> updating patches of OS, firmwares, software and all the devices greatly reduce the overall security risks -> It also helps to slow down any attacker after the breach -> if an attack may able to enter the infrastructure using Zero day then their might be a chance that they would not be able to go further due to other vulnerability patches --> Keep regular Backups of the systems to prevent greater loss
+- Endpoint Monitoring --> Endpoint Solutions -> System created by organisation to keep track of endpoint security
+- Endpoint Solutions --> Endpoint Protection Platform (EEP) -> Scans the endpoint for malware and other vulnerabilities issues -> keep them updated -> if any risk arise can work swiftly on it --> Endpoint Detection and Response (EDR) -> Can detect malicious movements and suspicious activities on endpoint and take quick actions against them -> Use AI for better security -> Can transmit data to other endpoints regarding the compromised endpoint to block it from their perspective -> It tools provide data on new threats and could quarantine systems that are suspected of compromise --> Through both EEP and EDR, security professions have broader view from top to down on the conditions of the endpoints
+- On Unknown Endpoints which you have to provide connection to some of your resources --> create a unique network consisting only the resources which they need -> separated from the original network of enterprise -> implement PoLP
+- Asking each and every connection point to decline the unauthenticated devices to connect -> This forces them register to the network for authentication to connect
