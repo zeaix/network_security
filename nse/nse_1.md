@@ -183,3 +183,24 @@
 - Use Company Approved Tools and Train employees on workspace security behaviour --> Secure Web Browser with secure settings --> Manage Cookies properly --> Manage Add-Ons and only go for company approved ones --> Keep Pop-Up blocker which could prevent malicious downloaded --> Treat Active Content with caution
 - Implementing Proxy filtering --> divide the network in public and private which hides internal from external --> Could also implant configuration files for more security --> Patch/Update software vulnerabilities regularly
 - Behaviour Recommendation --> Use updated antivirus --> Train users with security awareness --> use an application allow list --> close or disable the unused applications
+
+## Module 10: Cloud Security and Virtualisation (27 November 2026)
+- Virtualisation --> Virtualising services like storage, services, applications
+- A Software application is used to deploy and manage virtualisation on a hardware -> It is used to assign and distribute hardware resources between virutalisations
+- Benefits of Virtualisation --> Cost Effective --> Efficient use of Resources --> Easy Management --> Safe testing Environment
+- Hypervisor --> It is a software application which is used to deploy and mange the virtualisation on hardware systems efficiently
+-  Types of Hypervisor --> Type 1 -> Also known as bare metal hypervisor or Native Hypervisor -> Directly deployed over the hardware as a OS -> Used for servers -> Can create and manage multiple virtualisation efficiently -> Need dedicated Hardware -> Need a management console -> Examples: ESXIs, Hyper-V etc. --> Type 2 -> also known as Hosted Hypervisor -> Directly installed on OS as a software application -> Work on OS like Windows, Linux, MacOS, etc. -> Acts as a Virtual machine manager -> coordinate with host os to manage virtual machine
+-  VMware --> VMware EXSi -> Type 1 hypervisor -> used in servers to efficiently deploy virtual machines -> Can handle multiple virtual machines --> VMware vCenter -> software application to manage all the EXSi of VMware as a centralised management and use VMware vSphere --> VMware Workstation Pro -> Type 2 hypervisor used in windows and provide many functionalities --> VMware Fusion -> also type 2 hypervisor similar to workstation pro but used in MacOS --> VMware Player -> Free version with less functionality than workstation pro
+-  Hyper-V --> Windows Server Hyper-V -> type 1 server works on windows servers --> Hyper-V Server -> could be installed in any server but it is standalone --> Hyper-V client -> Installed on Non-server OS
+-  Citrix --> Citrix Virtual app and desktops could be managed centralised and could be managed efficiently
+-  Cloud --> Different kind of service availability anywhere and anytime over the internet
+-  Benefits of Clouds --> Fault Tolerance --> High Availability
+-  Models of Clouds --> Infrastructure as a Service (IaaS) -> client handles Operating System to Data --> Platform as a Service (PaaS) -> client handles from Application to Data --> Software as a Service (SaaS) -> Client only handles data
+-  IaaS --> Client can take the hardware resources from the service provider and they only need to pay for the hardware they use and all the headache about managing that hardware is on service provider
+-  PaaS --> Client handles and deploy the application according to their requirements and leave all the other task to the service provider which reduce the tasks and cost
+-  SaaS --> Client takes an application service from the service provider and only need to use that application and manage the data in it
+-  Responsibility of Security --> Both parties from service provider and client are responsible for the security of whole infrastructure -> Service provider is responsible of the security of the cloud -> Clients are responsible for security within the cloud -> In most of the cases the fault comes from client side due to social engineering and other things
+-  Regions --> Data law works according to the place and country the data centre is established and the data is stored -> Regions are the designated places where multiple isolated data centre resides
+-  Availability zones --> designated areas within the regions where data centres could be built -> Every availability zone has its own power and network -> Provide connectivity to other availability zones with redundant data to provide high availability
+-  IaaS Security --> Service provider provides the infrastructure to the client so security related to availability and infrastructure is on the hand of service provider but client need to take care of the security of network, access, and application
+-  Security Challenges in Cloud --> Many organisation uses other clouds also which create too many clouds to handle and manage which become multicloud problem --> experienced Security Professionals are less --> Its burden to integrate multiple non-integrated security environments simultaneously
